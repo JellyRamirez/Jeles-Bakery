@@ -156,6 +156,7 @@
     background-color: #D21B1C;
     font-family: Montserrat-Medium;
     color: white;
+    max-height: 2000px;
 }
 
 .cake {
@@ -200,6 +201,41 @@
    border-radius: 50%;
 }
 
+footer{
+    background-color: #F2AAA7;
+    padding: 20px;
+}
+
+.cont_f{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	margin-top: 20px;
+	text-align: center;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    
+    font-family: Montserrat-Medium;
+    color: #D21B1C;
+    
+}
+
+.info p {
+	margin: 5px;
+}
+
+.info img{
+    width: 100px;
+    height: 100px;
+}
 
 @media screen and (max-width: 500px) {
     .header a {
