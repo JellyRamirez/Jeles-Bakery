@@ -156,7 +156,6 @@
     background-color: #D21B1C;
     font-family: Montserrat-Medium;
     color: white;
-    max-height: 2000px;
 }
 
 .cake {
@@ -222,7 +221,7 @@ footer{
     width: 300px;
     height: 100px;
     padding: 20px;
-    
+    margin-right: 10px;
     font-family: Montserrat-Medium;
     color: #D21B1C;
     
@@ -269,6 +268,42 @@ footer{
     .cont_b{
         float: none;
     }
+
+    .cakes{
+        display: grid;
+        max-width: 1000px;
+    }
+
+    .cake {
+        width: 200px;
+        height: 300px;
+    }
+
+    .cake h2 {
+        font-size: 18px;
+    }
+    
+    .cake h3 {
+        font-size: 15px;
+    }
+      
+    .cake p {
+        font-size: 13px;
+    }
+
+    .cake img{
+        width: 125px;
+        height: 125px;
+    }
+
+    .cont_b h1{
+        font-size: 20px;
+    }
+    
+    .cont_b p{
+        font-size: 12px;
+    }
+    
   }
 
 
