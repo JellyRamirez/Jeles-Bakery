@@ -93,6 +93,7 @@
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     float: left;
+    cursor: pointer;
     
 }
 
@@ -103,6 +104,8 @@
 
 .centrar{
     text-align: center;
+    font-family: Montserrat-Bold;
+    color: white;
 }
  
 .container_j{
@@ -122,9 +125,9 @@
     align-items: center;
     /*width: 50%;
     max-height: 500px;*/
-    padding: 20px;
-    margin-right: 20px;
+    padding: 20px 10px;
     color: white;
+    overflow: hidden;
 }
 
 .cont_b h1{
@@ -236,6 +239,45 @@ footer{
     height: 100px;
 }
 
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 600px;
+    background-color:#D21B1C;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.formulario h1{
+    font-size: 20px;
+    text-align: center;
+}
+.formulario h2 {
+    font-size: 17px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+
+
+.select_s{
+    background-color: #F2AAA7;
+    width:200px;
+	padding:5px;
+	border-radius:5px;
+	margin:auto;
+    float: none;
+    font-family: Montserrat-Medium;
+}
+
+
+
 @media screen and (max-width: 500px) {
     .header a {
         float: none;
@@ -271,7 +313,7 @@ footer{
 
     .cakes{
         display: grid;
-        max-width: 1000px;
+
     }
 
     .cake {

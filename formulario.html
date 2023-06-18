@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de pedido</title>
+    <link rel="stylesheet" href="./bakery.css">
+</head>
+<body>
+    <div class="header">
+        <a class="logo">
+            <img src="../Jeles-Bakery/images/Logo.png" style="width:40px; height: 40px;" alt="Logo de Jele's Bakery">
+        </a>  
+        <a class="logo-text" > Jele's Bakery</a>
+        <div class="header-right">
+            <a class="active" href="#home">Inicio</a>
+            <a href="#contact">Nosotros</a>
+            <a href="#catalog">Sucursales</a>
+        </div>
+    </div>
+
+    <section class="cont_b">
+        <div class="centrar">
+            <h1>Formulario de pedido</h1> 
+         </div>
+        <div class="formulario">
+            <h1>Tu pedido:</h1>
+            <h2>Elige tu tipo de pastel</h2>
+            <select id="prod" name="prod" class="select_s" style="font-family: Montserrat-Medium;>
+                    <option value="p_vintage">Pastel Vintage</option>
+                    <option value="p_fondant">Pastel de Fondant</option>
+                    <option value="p_lunchbox">Pastel Lunchbox</option>
+                    <option value="tiramisu">Tiramisu</option>
+                    <option value="gelatina">Gelatina</option>
+                    <option value="cupcakes">Cupcakes</option>
+            </select>
+            <h2>Elige el sabor del bizcocho</h2>
+            <select id="sab" name="sab" class="select_s" style="font-family: Montserrat-Medium;">
+                    <option value="s1">Vainilla</option>
+                    <option value="s2">Chocolate</option>
+                    <option value="s3">Red Velvet</option>
+                    <option value="s4">Naranja</option>
+            </select>
+            <h2>Elige el sabor del relleno</h2>
+            <select id="sab" name="sab_r" class="select_s" style="font-family: Montserrat-Medium;">
+                    <option value="s1">Mermelada</option>
+                    <option value="s2">Fruta natural</option>
+                    <option value="s3">Manjar</option>
+                    <option value="s4">Ganache de chocolate</option>
+            </select>
+
+            <h2>Fecha de entrega</h2>
+            <input type="date" id="date" name="date" value="2023-06-20" min="2023-06-20" max="2024-06-20" class="select_s">
+
+            <h1>Datos personales</h1>
+            <label for="Nombre"> Nombre completo</label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Ejemplo: Juán Martínez" class="select_s">
+            <label for="Tel">Teléfono celular</label>
+            <input for="Tel" id="Tel" placeholder="Ejemplo: 7821726765" maxlength="10" class="select_s">
+            <label for="Mail">Escribe tu correo electrónico</label>
+            <input type="email" id="Mail" name="Mail" placeholder="ejemplo@nuevo.com" class="select_s"> 
+            <input type="button" id="button1" name="button1" class="button1" value="Enviar pedido" onclick="alert('Pedido enviado. Espera notificaciones.')">
+        </div>
+        </div>
+    </section>
+</body>
+</html>
